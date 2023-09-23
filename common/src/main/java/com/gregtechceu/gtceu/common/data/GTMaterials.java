@@ -795,6 +795,8 @@ public class GTMaterials {
     public static Material RhodiumPlatedPalladium;
     public static Material Butyraldehyde;
     public static Material PolyvinylButyral;
+    public static Material Biphenyl;
+    public static Material PolychlorinatedBiphenyl;
 
     /**
      * Not possible to determine exact Components
@@ -926,6 +928,7 @@ public class GTMaterials {
     public static Material NaquadriaWaste;
     public static Material Lapotron;
     public static Material UUMatter;
+    public static Material PCBCoolant;
 
     /**
      * Second Degree Compounds
