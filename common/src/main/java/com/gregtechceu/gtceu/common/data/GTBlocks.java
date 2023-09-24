@@ -317,9 +317,9 @@ public class GTBlocks {
                     .setData(ProviderType.LOOT, NonNullBiConsumer.noop())
                     .addLayer(() -> RenderType::cutoutMipped)
                     //.color(() -> LaserPipeBlock::tintedColor)
-                    .item(PipeBlockItem::new)
+                    .item(OpticalPipeBlockItem::new)
                     .model(NonNullBiConsumer.noop())
-                    //.color(() -> LaserPipeBlockItem::tintColor)
+                    .color(() -> OpticalPipeBlockItem::tintColor)
                     .build()
                     .register();
         }
